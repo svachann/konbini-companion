@@ -2,7 +2,7 @@
 
 Decode Japanese convenience stores like a local.
 
-Search, browse, and translate 57+ items across 10 categories from Japan's major konbini chains (7-Eleven, Lawson, FamilyMart). Perfect companion for any Japan trip.
+Search, browse, and translate items across 10 categories from Japan's major konbini chains (7-Eleven, Lawson, FamilyMart). Perfect companion for any Japan trip.
 
 ## Features
 
@@ -12,6 +12,7 @@ Search, browse, and translate 57+ items across 10 categories from Japan's major 
 - 🏪 **Store browser** — see what's available at each chain
 - 💡 **Cultural notes** — understand what you're buying
 - 💾 **JSON export** for data pipelines
+- 🔄 **Auto-synced** — weekly scraper keeps items & prices fresh from 7-Eleven Japan
 
 ## Quick Start
 
@@ -44,9 +45,31 @@ python konbini-companion.py --random
 | 📦 Daily Goods | 7 | Umbrella, SIM Card, Toothbrush |
 | 🏪 Services | 5 | ATM, Shipping, Ticket Pickup |
 
+## How the Data Stays Fresh
+
+The item database is **auto-synced weekly** from 7-Eleven Japan's official product pages:
+
+1. **`konbini-scraper.py`** — scrapes 246+ live items from sej.co.jp across 17 categories
+2. **`konbini-sync.py`** — compares scraped data with the existing database, identifies new items and price changes
+3. **Weekly cron job** (Mondays 6AM) — runs the sync pipeline via LLM to translate Japanese names, generate descriptions, and update prices
+4. Results are automatically pushed to this repo
+
+No manual data entry needed — new products and price changes are picked up automatically every week.
+
 ## Data
 
-The tool exports to `~/.hermes/data/konbini-companion-items.json` with full structured data including all 57 items, categories, store availability, and metadata.
+The tool exports to `~/.hermes/data/konbini-companion-items.json` with full structured data including all items, categories, store availability, and metadata.
+
+## Project Structure
+
+```
+├── konbini-companion.py      # CLI tool — search, browse, explore
+├── konbini-scraper.py        # 7-Eleven product scraper
+├── konbini-sync.py           # Diff + merge pipeline
+├── data/
+│   └── konbini-companion-items.json   # Item database
+└── .github/workflows/        # (future) manual sync trigger
+```
 
 ## License
 
