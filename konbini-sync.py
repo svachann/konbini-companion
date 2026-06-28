@@ -25,7 +25,6 @@ sys.path.insert(0, SCRIPTS_DIR)
 import importlib
 scraper = importlib.import_module("konbini-scraper")
 scrape_sej_all = scraper.scrape_sej_all
-scrape_sej_item_detail = scraper.scrape_sej_item_detail
 SEJ_CATEGORY_MAP = scraper.SEJ_CATEGORY_MAP
 
 DATA_FILE = os.path.expanduser("~/.hermes/data/konbini-companion-items.json")
