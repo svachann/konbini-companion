@@ -3,8 +3,8 @@
     "name": "Konbini Companion Database",
     "description": "Japan convenience store item translator & guide",
     "version": "2.0.0",
-    "generated": "2026-06-28T20:35:24.497806",
-    "total_items": 839,
+    "generated": "2026-06-29T06:10:36.730878",
+    "total_items": 848,
     "stores": [
       {
         "name": "7-Eleven",
@@ -25,49 +25,49 @@
   },
   "categories": [
     {
-      "id": "onigiri",
-      "name": "🍙 Rice Balls (Onigiri)",
-      "item_count": 15
-    },
-    {
-      "id": "bento",
-      "name": "🍱 Bento & Meals",
-      "item_count": 65
-    },
-    {
-      "id": "hot_foods",
-      "name": "🍗 Hot Foods / Fried",
-      "item_count": 31
-    },
-    {
-      "id": "noodles",
-      "name": "🍜 Noodles & Cup Noodles",
-      "item_count": 39
-    },
-    {
       "id": "drinks",
-      "name": "🥤 Drinks (Tea, Coffee, Soda)",
+      "name": "🥤 Drinks",
       "item_count": 386
     },
     {
       "id": "alcohol",
-      "name": "🍺 Alcoholic Drinks",
+      "name": "🍺 Alcohol",
       "item_count": 223
     },
     {
-      "id": "snacks",
-      "name": "🍪 Snacks & Chips",
-      "item_count": 24
+      "id": "bento",
+      "name": "🍱 Bento & Meals",
+      "item_count": 67
+    },
+    {
+      "id": "noodles",
+      "name": "🍜 Noodles",
+      "item_count": 42
     },
     {
       "id": "desserts",
-      "name": "🍰 Desserts & Sweets",
-      "item_count": 33
+      "name": "🍰 Desserts",
+      "item_count": 34
+    },
+    {
+      "id": "hot_foods",
+      "name": "🍗 Hot Foods",
+      "item_count": 31
+    },
+    {
+      "id": "snacks",
+      "name": "🍪 Snacks",
+      "item_count": 26
     },
     {
       "id": "daily_goods",
-      "name": "📦 Daily Goods & Essentials",
-      "item_count": 23
+      "name": "📦 Essentials",
+      "item_count": 24
+    },
+    {
+      "id": "onigiri",
+      "name": "🍙 Rice Balls (Onigiri)",
+      "item_count": 15
     }
   ],
   "items": [
@@ -4028,7 +4028,7 @@
       "source_url": "https://www.sej.co.jp/products/a/item/210760/kanto/",
       "product_code": "210760",
       "jp": "７プレミアム オレンジ果汁１００％ １Ｌ",
-      "price_yen": 350,
+      "price_yen": 368,
       "category_slug": "search:飲料",
       "category": "drinks",
       "emoji": "🥤",
@@ -10977,6 +10977,165 @@
       "regions": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
       "launch_date": "",
       "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/105214/058ABA9A716363E94E252BE1A576AC6C.jpg"
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/041569/kanto/",
+      "product_code": "041569",
+      "jp": "じっくり煮込んだポークカレー",
+      "price_yen": 498,
+      "category_slug": "bento",
+      "category": "bento",
+      "emoji": "🍱",
+      "regions": "東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、沖縄",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/041569/43B7137D0976472AEF50F93A39E00321.jpg",
+      "name_en": "Slowly Simmered Pork Curry",
+      "romaji": "Jikkuri nikon'da pōku karē",
+      "description": "A hearty Japanese-style pork curry with vegetables, slow-cooked for deep flavor — a konbini lunch staple.",
+      "tier": "★★",
+      "cultural_note": "Japanese curry is thicker and sweeter than Indian curry, often served with fukujinzuke (pickled vegetables) on the side."
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/043065/kanto/",
+      "product_code": "043065",
+      "jp": "チキンかつ弁当",
+      "price_yen": 648,
+      "category_slug": "bento",
+      "category": "bento",
+      "emoji": "🍱",
+      "regions": "茨城県",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/043065/9B0802D6CD87D44A2E36B4B4293D163A.jpg",
+      "name_en": "Chicken Cutlet Bento",
+      "romaji": "Chikin katsu bentō",
+      "description": "Crispy panko-breaded chicken cutlet over rice with tonkatsu sauce and shredded cabbage — comfort food at its finest.",
+      "tier": "★★★",
+      "cultural_note": "Chicken katsu (chikin katsu) is a beloved Western-style dish in Japan, thicker and juicier than pork tonkatsu. A perfect konbini comfort meal."
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/090670/kanto/",
+      "product_code": "090670",
+      "jp": "鰹出汁の旨味引き立つ かき揚げそば",
+      "price_yen": 500,
+      "category_slug": "men",
+      "category": "noodles",
+      "emoji": "🍜",
+      "regions": "東北、関東、新潟県、北陸、岐阜県、愛知県、三重県、近畿",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/090670/8958679D9B3E317FD1F1E7D44C415C2D.jpg",
+      "name_en": "Bonito Broth Tempura Scallion Soba",
+      "romaji": "Katsuo dashi no umami hikitatsu kakiage soba",
+      "description": "Soba noodles in a rich katsuo-bonito dashi broth topped with a crispy mixed-vegetable tempura fritter.",
+      "tier": "★★",
+      "cultural_note": "Kakiage is a type of tempura where multiple ingredients (onion, carrot, shrimp) are mixed together and deep-fried — different from single-ingredient ebi tempura."
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/090991/kanto/",
+      "product_code": "090991",
+      "jp": "大盛りパスタ 明太マヨネーズ",
+      "price_yen": 430,
+      "category_slug": "pasta",
+      "category": "noodles",
+      "emoji": "🍜",
+      "regions": "茨城県、栃木県、群馬県、埼玉県",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/090991/3B5BC71A4D4EE77C49C30D16F2CC40A2.jpg",
+      "name_en": "Large Pasta with Mentaiko Mayo",
+      "romaji": "Ōmori pasuta mentaiko mayonēzu",
+      "description": "A generous serving of spaghetti tossed in spicy cod roe (mentaiko) and creamy mayonnaise sauce.",
+      "tier": "★★",
+      "cultural_note": "Mentaiko is pollock roe seasoned with chili pepper — a Fukuoka specialty that's become a popular pasta flavor across Japan."
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/091212/kanto/",
+      "product_code": "091212",
+      "jp": "大盛りパスタ カルボナーラ",
+      "price_yen": 600,
+      "category_slug": "pasta",
+      "category": "noodles",
+      "emoji": "🍜",
+      "regions": "茨城県、栃木県、群馬県、埼玉県",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/091212/F4687F6852F0ED537C2DA1B81A8F8AB8.jpg",
+      "name_en": "Large Pasta Carbonara",
+      "romaji": "Ōmori pasuta karubonāra",
+      "description": "Creamy egg and cheese carbonara pasta, Japanese-style, topped with black pepper and bacon bits.",
+      "tier": "★"
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/100115/kanto/",
+      "product_code": "100115",
+      "jp": "やわらかほうれん草とベーコンのサラダ",
+      "price_yen": 298,
+      "category_slug": "salad",
+      "category": "daily_goods",
+      "emoji": "📦",
+      "regions": "東北、関東、甲信越、北陸、東海、近畿、九州",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/100115/E8FCE41D78055BD27267D2FC2B1A0217.jpg",
+      "name_en": "Soft Spinach and Bacon Salad",
+      "romaji": "Yawarakana hōrensō to bēkon no sarada",
+      "description": "Fresh spinach leaves paired with crispy bacon bits and a light dressing.",
+      "tier": "★"
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/115050/kanto/",
+      "product_code": "115050",
+      "jp": "ぷるもち水まんじゅう",
+      "price_yen": 168,
+      "category_slug": "sweets",
+      "category": "desserts",
+      "emoji": "🍰",
+      "regions": "関東、甲信越、近畿",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/115050/AD57FF91C99106C3E0025C8C2D762C8B.jpg",
+      "name_en": "Chewy Water Manju",
+      "romaji": "Puru mochi mizu manjū",
+      "description": "A refreshing summer dessert — translucent mochi-like dumplings filled with sweet red bean paste. A seasonal treat!",
+      "tier": "★★★",
+      "cultural_note": "Mizu manjū (水まんじゅう) is a traditional Japanese summer sweet with a jelly-like outer layer made from kudzu starch. 'Puru mochi' describes the unique bouncy, chewy texture. Find it in the refrigerated dessert section."
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/290559/kanto/",
+      "product_code": "290559",
+      "jp": "７プレミアム デニッシュブレッド ３枚",
+      "price_yen": 148,
+      "category_slug": "bread",
+      "category": "snacks",
+      "emoji": "🍪",
+      "regions": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/290559/A49F5BD8A998EC9729DBD6324DF2CDC0.jpg",
+      "name_en": "7-Premium Danish Bread 3 Slices",
+      "romaji": "Sebun puremiamu denisshu breddo san-mai",
+      "description": "Buttery, flaky Danish-style bread slices, perfect for breakfast or a light snack.",
+      "tier": "★"
+    },
+    {
+      "source": "7-Eleven",
+      "source_url": "https://www.sej.co.jp/products/a/item/303868/kanto/",
+      "product_code": "303868",
+      "jp": "つぶつぶコーンマヨネーズ",
+      "price_yen": 158,
+      "category_slug": "bread",
+      "category": "snacks",
+      "emoji": "🍪",
+      "regions": "北海道、東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+      "launch_date": "",
+      "image_url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/303868/6D387BF8654835E127C7E33CEC40FA60.jpg",
+      "name_en": "Crunchy Corn Mayo",
+      "romaji": "Tsubutsubu kōn mayonēzu",
+      "description": "Sweet corn kernels with creamy mayonnaise — a simple, addictive snack from the bread/pastry section.",
+      "tier": "★★",
+      "cultural_note": "Corn mayonnaise bread (コーンマヨネーズ) is a classic Japanese bakery item, often found in school lunch menus. The 'tsubutsubu' (つぶつぶ) refers to the satisfying pop of each kernel."
     }
   ]
 }
