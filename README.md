@@ -1,5 +1,3 @@
-# Konbini Companion
-\n
 # Konbini Companion 🏪
 
 Decode Japanese convenience stores like a local.
